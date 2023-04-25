@@ -1,0 +1,11 @@
+package com.demo.kalyan.Repository;
+
+import java.util.List;
+
+import com.demo.kalyan.Entity.kalyanEntity;
+
+public interface kalyanRepoInt  extends JpaRepository <kalyanEntity , Integer>{
+
+	List<kalyanEntity> findAll();
+
+}

@@ -1,0 +1,21 @@
+package com.demo.kalyan.Controller;
+
+@RestController
+public class kalyanController {
+
+	@Autowired
+
+	public BLoginService hel;
+
+	@GetMapping("/login")
+
+	public List<Entity> log()
+
+	{
+
+	return hel.get();
+
+	}
+
+
+	}

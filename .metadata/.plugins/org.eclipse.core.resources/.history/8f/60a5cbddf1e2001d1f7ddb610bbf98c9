@@ -1,0 +1,15 @@
+package com.demo.kalyan.Service;
+
+import java.util.List;
+
+import com.demo.kalyan.Entity.kalyanEntity;
+
+public class kalyanService implements kalyanServiceInt {
+
+	@Override
+	public List<kalyanEntity> get() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

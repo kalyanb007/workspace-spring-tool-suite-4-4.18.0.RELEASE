@@ -1,0 +1,6 @@
+package com.demo.kalyan.Service;
+
+public interface kalyanServiceInt {
+	public List<kalyanEntity> get();
+
+}
